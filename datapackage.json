@@ -1,0 +1,28 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "2019_1",
+      "path": "http://dados.ufrn.br/dataset/1e596793-1ac3-4b59-9ae8-f053eda6b698/resource/66f1737b-5732-4029-8b22-2698be3e24ca/download/emprestimos-20191.csv",
+      "profile": "tabular-data-resource",
+      "schema": "emprestimos-schema.json"
+    },
+    {
+      "name": "2018_2",
+      "path": "http://dados.ufrn.br/dataset/1e596793-1ac3-4b59-9ae8-f053eda6b698/resource/02a9e1d6-900c-450e-8e8f-90fac8125a96/download/emprestimos-20182.csv",
+      "profile": "tabular-data-resource",
+      "schema": "emprestimos-schema.json"
+    }
+  ],
+  "name": "emprestimos-biblioteca-ufrn",
+  "title": "Empréstimos dos acervos das bibliotecas da UFRN",
+  "description": "Relação dos empréstimos dos acervos das bibliotecas da instituição. Atualizado semestralmente.",
+  "version": "1.0",
+  "homepage": "http://dados.gov.br/dataset/emprestimos-acervos-das-bibliotecas",
+  "contributors": [
+    {
+      "title": "Suporte - UFRN",
+      "role": "author"
+    }
+  ]
+}
