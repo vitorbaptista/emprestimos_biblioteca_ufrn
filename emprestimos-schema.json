@@ -24,7 +24,7 @@
       "format": "%Y/%m/%d %H:%M:%S.%f000",
       "description": "Data da renovação do empréstimo",
       "constraints": {
-        "required": false
+        "required": true
       }
     },
     {
